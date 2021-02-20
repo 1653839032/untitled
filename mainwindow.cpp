@@ -8,7 +8,10 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 }
-
+void fun()
+{
+	qDebug()<<"老狗";
+}
 MainWindow::~MainWindow()
 {
     delete ui;
